@@ -1,0 +1,23 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Local database configuration
+config/database.php
+
+# Backups
+*.bak
+*.backup
+*~
+
+# Dependencies and generated files
+vendor/
+node_modules/
+
+# Logs
+*.log
+
+*.bak2
+*.bak3
+*.task-fix-backup
